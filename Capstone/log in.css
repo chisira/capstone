@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*container*/
+.container{
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    border: 1px,solid, black;
+    margin: auto;
+    margin-top: 50px;
+}
+/*form*/
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(22, 21, 21);
+}
+.form h1{
+    font-size: 3rem;
+    font-style: sanserif;
+    margin: 40px;
+    color: white;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px, solid, black;
+    outline: none;
+    border-radius: 20px;
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: rgb(43, 40, 40);
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(218, 218, 13);
+}
+.form a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+
+}
+.form a:hover{
+    color: rgb(218, 218, 13);
+}
+/*right side*/
+.side{
+    display: flex;
+}
+.side img{
+width: 650px;
+}
+
+#facebuk{
+    padding: 15px;
+    margin-top: 30px;
+    color: white;
+    background-color: #3b5998;
+    width: 65%;
+
+}
+#twiter{
+    padding: 15px;
+    margin-top: 10px;
+    color: white;
+    background-color: #1bb2e9;
+    width: 65%;
+}
+#gmail{
+    padding: 15px;
+    margin-top: 10px;
+    color: white;
+    background-color: #DD4B39;
+    width: 65%;
+}
+#OR{
+    margin-top: 10px;
+    color: blue;
+}
